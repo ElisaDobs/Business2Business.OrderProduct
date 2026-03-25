@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/SQLScripts/">
+    <File Path="D:/BusinessToBusiness/B2B_DB/B2B_Schema_And_Data.sql" />
+  </Folder>
+  <Project Path="Business2Business.Common/Business2Business.Common.csproj" />
+  <Project Path="Business2Business.OrderProduct/Business2Business.OrderProduct.csproj" />
+</Solution>

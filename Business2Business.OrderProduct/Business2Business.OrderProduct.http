@@ -1,0 +1,6 @@
+@Business2Business.OrderProduct_HostAddress = http://localhost:5295
+
+GET {{Business2Business.OrderProduct_HostAddress}}/product/
+Accept: application/json
+
+###
