@@ -19,7 +19,7 @@ namespace Business2Business.OrderProduct.Controllers.Product
             _productRepo = productRepo;
             _loggerRepo = loggerRepo;
         }
-        [Authorize]
+        [Authorize(Roles = "Admin,Customer")]
         [HttpGet("GetAllProducts")]
         public IEnumerable<Common.Products.Models.Product>? GetAllProducts(int pageNumber = 1, int pageSize = 10, string field = "", string searchItem = "")
         {

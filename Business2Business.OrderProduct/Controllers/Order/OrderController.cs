@@ -29,7 +29,7 @@ namespace Business2Business.OrderProduct.Controllers.Order
             _orderProductRepo = orderProductRepo;
             _loggerRepo = loggerRepo;
         }
-        [Authorize("Customer")]
+        [Authorize(Roles = "Customer")]
         [HttpPost("SubmitOrderProduct")]
         public ActionResult SubmitOrderProduct(Guid useId, int productId, int productQuantity)
         {
